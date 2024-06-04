@@ -120,7 +120,7 @@ let questions = [
   },
   {
     numb: 13,
-    question: "Sur base de quoi sont designés les masques des pourfondeurs ?",
+    question: "Sur base de quoi sont desinés les masques des pourfondeurs ?",
     answer: "A. Leurs visages",
     options: [
       "A. Leurs visages",

@@ -58,12 +58,12 @@ let questions = [
   {
     numb: 7,
     question: "Pourquoi Mitsuri est devenu un pilier ?",
-    answer: "C. Trouver l'homme de sa vie",
+    answer: "C. Pour trouver l'homme de sa vie",
     options: [
-      "A. Protéger les humains",
-      "B. Tuer les démons",
-      "C. Trouver l'homme de sa vie",
-      "D. Se vanger",
+      "A. Pour protéger les humains",
+      "B. Pour tuer les démons",
+      "C. Pour trouver l'homme de sa vie",
+      "D. Pour se vanger",
     ],
   },
   {
@@ -74,7 +74,8 @@ let questions = [
   },
   {
     numb: 9,
-    question: "Que ce qui démontre que Tanjirō évolu en tant que pourfonfeur ?",
+    question:
+      "Quel signe témoigne de l'évolution de Tanjirō en tant que pourfonfeur ?",
     answer: "C. Sa cicatrice",
     options: [
       "A. Son sabre",
@@ -97,8 +98,7 @@ let questions = [
   },
   {
     numb: 11,
-    question:
-      "Quel autre personnage possède également un odorat tel celui de Tanjirō ?",
+    question: "Quel autre personnage possède le même odorat que Tanjirō ?",
     answer: "D. Sakonji Urokodaki",
     options: [
       "A. Tokito Muichiro",
@@ -109,13 +109,13 @@ let questions = [
   },
   {
     numb: 12,
-    question: "Quelle est la remarque que Muzan ne tolère pas ?",
-    answer: "A. Son visge pâle",
+    question: "Muzan ne tolère pas qu'on rappelle qu'il a..?",
+    answer: "A. Unvisge pâle",
     options: [
-      "A. Son visge pâle",
-      "B. Son chapeau blanc",
-      "C. Son air de fritôche",
-      "D. Son pantalon blanc",
+      "A. Un visge pâle",
+      "B. Un chapeau blanc",
+      "C. Un air de fritôche",
+      "D. Un pantalon blanc",
     ],
   },
   {

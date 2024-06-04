@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="js/app.js" defer></script>
+    <script src="js/questions.js" defer></script>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="#" class="logo">Quiz.</a>
+        <nav class="navbar">
+          <a href="#" class="active">Accueil</a>
+          <a href="#">à propos</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+      </header>
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-img">
+            <img src="img/Zenitsu_anime_design.webp" alt="" />
+          </div>
+          <div class="quiz-box">
+            <!-- <h1>Netflix Series Quiz</h1> -->
+            <div class="quiz-header">
+              <img src="img/Site-logo.webp" alt="" />
+              <span class="header-score">Score: 0/5</span>
+            </div>
+            <h2 class="question-text">Quelle était le vrai de Bare-su ?</h2>
+            <div class="option-list">
+              <!-- <div class="option">
+                <span>A. Lee Cheong-san</span>
+              </div>
+              <div class="option">
+                <span>B. Lee Su-hyeok</span>
+              </div>
+              <div class="option">
+                <span>C. Yoon Gwi-nam</span>
+              </div>
+              <div class="option">
+                <span>D. Yang Dae-su</span>
+              </div> -->
+            </div>
+            <div class="quiz-footer">
+              <span class="question-total">question 1/5</span>
+              <button class="next-btn">Suivant</button>
+            </div>
+          </div>
+          <div class="quiz-img2">
+            <img src="img/Tanjirou_anime_design.webp" alt="" />
+          </div>
+          <div class="result-box">
+            <h2>Résultat !</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+              <span class="score-text">Ton score 0 sur 5</span>
+            </div>
+            <div class="buttons">
+              <button class="tryAgain-btn">Ressayer</button>
+              <button class="goHome-btn">Menu</button>
+            </div>
+          </div>
+        </section>
+        <section class="home">
+          <div class="home-content">
+            <h1>Quiz</h1>
+            <p></p>
+            <button class="start-btn">Commencer !</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="popup-info">
+      <h2>Guide du quiz</h2>
+      <span class="info">1. Questions à choix multiples.</span>
+      <span class="info">2. Réponds en séléctionant la bonne case.</span>
+      <span class="info">3. Ce quiz comprend 5 questions.</span>
+      <span class="info">4. Chaque question vaut 1 points.</span>
+      <span class="info">5. Ton score sera converti en pourcentage.</span>
+
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Retour</button>
+        <a href="#" class="info-btn continue-btn">Continuer</a>
+      </div>
+    </div>
+  </body>
+</html>

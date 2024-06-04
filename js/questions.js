@@ -227,7 +227,7 @@ let imgTable = [
   },
   {
     number: 6,
-    img: "img/Muzan_Kibutsuji_anime.webp",
+    img: "img/Muzan_Kibutsuji_Anime.webp",
   },
   {
     number: 7,

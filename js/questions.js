@@ -110,7 +110,7 @@ let questions = [
   {
     numb: 12,
     question: "Muzan ne tolère pas qu'on rappelle qu'il a..?",
-    answer: "A. Unvisge pâle",
+    answer: "A. Un visge pâle",
     options: [
       "A. Un visge pâle",
       "B. Un chapeau blanc",
@@ -120,7 +120,7 @@ let questions = [
   },
   {
     numb: 13,
-    question: "Sur base de quoi sont desinés les masques des pourfondeurs ?",
+    question: "Sur base de quoi sont dessinés les masques des pourfondeurs ?",
     answer: "A. Leurs visages",
     options: [
       "A. Leurs visages",

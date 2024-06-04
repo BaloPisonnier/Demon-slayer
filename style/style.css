@@ -42,7 +42,7 @@ body {
 }
 .main {
   min-height: 100vh;
-  background: url("/img/background.png") no-repeat;
+  background: url("../img/background.png") no-repeat;
   background-size: 100%;
   background-position: center;
   pointer-events: auto;
@@ -411,13 +411,16 @@ body {
   .quiz-section {
     height: 100%;
   }
+  .quiz-section .result-box.active {
+    z-index: 11;
+  }
   .quiz-section .quiz-box {
     margin: 25px 0;
     position: absolute;
     width: 600px;
     background-color: #0000006f;
     height: fit-content;
-    z-index: 50;
+    z-index: 10;
   }
   .quiz-section .quiz-img img,
   .quiz-section .quiz-img2 img {
